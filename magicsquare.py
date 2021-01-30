@@ -229,4 +229,3 @@ print('██ means altered magic square is a magic square')
 ms = magicsquare('ms')
 for i in range(3, 7, 2):
     print(f'{i}:\n {ms.generate_odd_square(i)}')
-
